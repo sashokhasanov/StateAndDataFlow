@@ -15,6 +15,8 @@
 		0630459327C4131600B51CED /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0630459227C4131600B51CED /* RegisterView.swift */; };
 		0630459527C4147600B51CED /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0630459427C4147600B51CED /* UserManager.swift */; };
 		0630459727C4165200B51CED /* StarterVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0630459627C4165200B51CED /* StarterVIew.swift */; };
+		2DAB3F3A27C5908700CAD4E2 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB3F3927C5908700CAD4E2 /* ButtonView.swift */; };
+		2DAB3F3C27C5913100CAD4E2 /* TimerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB3F3B27C5913100CAD4E2 /* TimerButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		0630459227C4131600B51CED /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		0630459427C4147600B51CED /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		0630459627C4165200B51CED /* StarterVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterVIew.swift; sourceTree = "<group>"; };
+		2DAB3F3927C5908700CAD4E2 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		2DAB3F3B27C5913100CAD4E2 /* TimerButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				0630458227C4070F00B51CED /* StateAndDataFlowApp.swift */,
 				0630458427C4070F00B51CED /* ContentView.swift */,
+				2DAB3F3927C5908700CAD4E2 /* ButtonView.swift */,
+				2DAB3F3B27C5913100CAD4E2 /* TimerButtonView.swift */,
 				0630459027C40BEA00B51CED /* TimeCounter.swift */,
 				0630459227C4131600B51CED /* RegisterView.swift */,
 				0630459627C4165200B51CED /* StarterVIew.swift */,
@@ -149,12 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DAB3F3C27C5913100CAD4E2 /* TimerButtonView.swift in Sources */,
 				0630459727C4165200B51CED /* StarterVIew.swift in Sources */,
 				0630459127C40BEA00B51CED /* TimeCounter.swift in Sources */,
 				0630459327C4131600B51CED /* RegisterView.swift in Sources */,
 				0630458527C4070F00B51CED /* ContentView.swift in Sources */,
 				0630459527C4147600B51CED /* UserManager.swift in Sources */,
 				0630458327C4070F00B51CED /* StateAndDataFlowApp.swift in Sources */,
+				2DAB3F3A27C5908700CAD4E2 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
